@@ -22,7 +22,7 @@ class trigstudy{
         x[14][0] = "improper integrals, they:"; x[14][1] = "converge if the value is finite, diverge if the value is infinite; involve infinity";
         x[15][0] = "infinite discontinuity"; x[15][1] = "when either or both of the one sided limits go towards infinity. (ex. divide by 0)";
         x[16][0] = "infinite interval"; x[16][1] = "when the interval of an integral is infinite";
-        x[17][0] = ""; x[17][1] = "";
+        x[17][0] = "integral of sin²(x)"; x[17][1] = "";
         x[18][0] = ""; x[18][1] = "";
         x[19][0] = ""; x[19][1] = "";
         x[20][0] = ""; x[20][1] = "";

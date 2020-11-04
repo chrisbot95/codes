@@ -49,8 +49,8 @@ class blankstudy{
         x[28][0] = "the TOS variable gets loaded into the H register to then get loaded into the alu through the c bus"; x[28][1] = "";
         x[29][0] = "the result of the alu add operation has to go to "; x[29][1] = "mdr in preparation for the write to stack, and we also need to put the result in TOS aswell since it will be written to the top of the stack";
         x[30][0] = "IFEQ"; x[30][1] = "3 byte instruction, may be a jump, jump is given in 2 parts in a 2 byte offset to be combined into a single offset value";
-        x[31][0] = "IFEQ compares"; x[31][1] = "numbers to 0, it can also compare two numbers by subtracting them to see if the result is 0, which would mean they are the same value";
-        x[32][0] = ""; x[32][1] = "";
+        x[31][0] = "IFEQ compares"; x[31][1] = "numbers to 0, it can also compare two numbers by subtracting them to see if the result is 0 at the top of stack, which would mean they are the same value";
+        x[32][0] = "to test if a value within a register is equal to zero >>"; x[32][1] = "pass it throught the alu and test if the z bit is turned on or not (z = OPC; if (z) gotoT";
         x[33][0] = ""; x[33][1] = "";
         x[34][0] = ""; x[34][1] = "";
         x[35][0] = ""; x[35][1] = "";

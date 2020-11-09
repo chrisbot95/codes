@@ -66,7 +66,7 @@ class blankstudy{
         x[45][0] = "wind swept sand dunes can cause plants to form from the water in the bedrock"; x[45][1] = "";
         x[46][0] = "sandstorms"; x[46][1] = "suspension of sand particles, sand blasting";
         x[47][0] = "desert pavements are caused by"; x[47][1] = "wind blowing away the finer particles, so all the larger particles are left behind. the larger particles then protect the sand underneath from getting blown away";
-        x[48][0] = ""; x[48][1] = "";
+        x[48][0] = "aeolian ripples, dunes, draas"; x[48][1] = "mms to cms, 10cm to 10m, >100m";
         x[49][0] = ""; x[49][1] = "";
         x[50][0] = ""; x[50][1] = "";
         x[51][0] = ""; x[51][1] = "";

@@ -67,12 +67,12 @@ class blankstudy{
         x[46][0] = "sandstorms"; x[46][1] = "suspension of sand particles, sand blasting";
         x[47][0] = "desert pavements are caused by"; x[47][1] = "wind blowing away the finer particles, so all the larger particles are left behind. the larger particles then protect the sand underneath from getting blown away";
         x[48][0] = "aeolian ripples, dunes, draas"; x[48][1] = "mms to cms, 10cm to 10m, >100m";
-        x[49][0] = ""; x[49][1] = "";
-        x[50][0] = ""; x[50][1] = "";
-        x[51][0] = ""; x[51][1] = "";
-        x[52][0] = ""; x[52][1] = "";
-        x[53][0] = ""; x[53][1] = "";
-        x[54][0] = ""; x[54][1] = "";
+        x[49][0] = "dunes with angle of repose stuf, wind is different, less degrees"; x[49][1] = "";
+        x[50][0] = "Transverse dune type"; x[50][1] = "ridges that are perpendicular to prevailing wind direction";
+        x[51][0] = "longitudinal dune"; x[51][1] = "ridges that are parallel to prevailing wind direction";
+        x[52][0] = "barchan dune"; x[52][1] = "crescent shaped with horns pointing downwind (low sediment supply)";
+        x[53][0] = "parabolic dune"; x[53][1] = "crescent-shaped with horns pointing upwind (horns often anchor on vegetation)";
+        x[54][0] = "star dune"; x[54][1] = "winds from three or more directions";
         x[55][0] = ""; x[55][1] = "";
         x[56][0] = ""; x[56][1] = "";
         x[57][0] = ""; x[57][1] = "";

@@ -1,11 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
-class blankstudy{
+class precamb{
     public static void main(String[] args){
         Random rand = new Random();
         Scanner user = new Scanner(System.in);
         String[][] x = new String[70][2];
-        int length=14;
+        int length=47;
         int[] z = new int[length];
         int r;
         int temp;

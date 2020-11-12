@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-class blankstudy{
+class metamorphic{
     public static void main(String[] args){
         Random rand = new Random();
         Scanner user = new Scanner(System.in);

@@ -18,15 +18,15 @@ class blankstudy{
             z[i] = z[r];
             z[r] = temp;
         }
-        x[0][0] = "when does pangaea start to break up?"; x[0][1] = "jurassic period";
-        x[1][0] = "when does pangaea split the fuck up?"; x[1][1] = "early cretaceous period";
-        x[2][0] = "when do the north and south atlantic oceans start to form?"; x[2][1] = "cretaceous period";
-        x[3][0] = "at the end of the cretaceous period is the infamous"; x[3][1] = "k-t boundary event that wiped out the dinasaurs. k is for cretaceous, t for tercery";
-        x[4][0] = "evidence for the kt boundary event"; x[4][1] = "mineral layer seen around the world which had lots of iridium in it, which was evidence it was a meteorite impact, since iridium forms mostly in space I think";
-        x[5][0] = "larger creatures have a harder time >"; x[5][1] = "adjusting to changes in the ecosystem";
-        x[6][0] = "what are the cenozoic epochs?"; x[6][1] = "paleocene, eocene, oligocene, miocene, pliocene, pleistocene, holocene";
-        x[7][0] = "whats the name of the crater we think is the site of the meteorite crash"; x[7][1] = "chicxulub crater";
-        x[8][0] = "paleocene"; x[8][1] = "";
+        x[0][0] = ""; x[0][1] = "";
+        x[1][0] = ""; x[1][1] = "";
+        x[2][0] = ""; x[2][1] = "";
+        x[3][0] = ""; x[3][1] = "";
+        x[4][0] = ""; x[4][1] = "";
+        x[5][0] = ""; x[5][1] = "";
+        x[6][0] = ""; x[6][1] = "";
+        x[7][0] = ""; x[7][1] = "";
+        x[8][0] = ""; x[8][1] = "";
         x[9][0] = ""; x[9][1] = "";
         x[10][0] = ""; x[10][1] = "";
         x[11][0] = ""; x[11][1] = "";

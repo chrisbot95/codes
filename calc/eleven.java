@@ -36,7 +36,7 @@ class eleven{
         x[15][0] = "The Ratio Test"; x[15][1] = "put An+1 over An and take the limit. If it equals a constant (0<=C<1) then it is absolutely convergent, If C is > 1 or infinity, it is divergent. If C = 1, the Ratio Test is inconclusive.";
         x[16][0] = "if you see factorials, try"; x[16][1] = "The ratio test";
         x[17][0] = "The Root Test"; x[17][1] = "useful with powers. take the nth root of the absolute value of An, if 0<=L<1 then it is absolutely convergent, if L>1 or 1 is infinity, then it is divergent, if L=1, the test is inconclusive.";
-        x[18][0] = ""; x[18][1] = "";
+        x[18][0] = "first look at the sequence,"; x[18][1] = "";
         x[19][0] = ""; x[19][1] = "";
         x[20][0] = ""; x[20][1] = "";
         x[21][0] = ""; x[21][1] = "";

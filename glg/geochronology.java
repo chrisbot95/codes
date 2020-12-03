@@ -91,6 +91,7 @@ class geochronology{
         String n;
         while(true){
             for(int i=0; i<length; i++){
+                System.out.print(i+". ");
                 for(int j=0; j<2; j++){
                     System.out.print(x[z[i]][j]); 
                     n = user.nextLine();

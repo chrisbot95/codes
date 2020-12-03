@@ -4,8 +4,8 @@ class glaciers{
     public static void main(String[] args){
         Random rand = new Random();
         Scanner user = new Scanner(System.in);
-        String[][] x = new String[70][2];
-        int length=14;
+        String[][] x = new String[80][2];
+        int length=78;
         int[] z = new int[length];
         int r;
         int temp;
@@ -101,6 +101,7 @@ class glaciers{
         String n;
         while(true){
             for(int i=0; i<length; i++){
+                System.out.print(i+". ");
                 for(int j=0; j<2; j++){
                     System.out.print(x[z[i]][j]); 
                     n = user.nextLine();

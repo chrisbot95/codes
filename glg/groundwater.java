@@ -1,11 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
-class blankstudy{
+class groundwater{
     public static void main(String[] args){
         Random rand = new Random();
         Scanner user = new Scanner(System.in);
         String[][] x = new String[70][2];
-        int length=14;
+        int length=67;
         int[] z = new int[length];
         int r;
         int temp;
@@ -73,7 +73,7 @@ class blankstudy{
         x[52][0] = "if the rain water hits a limestone or dolostone"; x[52][1] = "they will dissolve. it will pull the magnesium and calcium ions out of the limestone and dolostone and carry them away. wrock willl dissentigrate and start making caves. caves are associated with limestone and dolostone.";
         x[53][0] = "karst topography:"; x[53][1] = "an area with many sinkholes and with cave systems beneath the land surface";
         x[54][0] = "dissapearing stream"; x[54][1] = "a stream that enters a cave";
-        x[55][0] = "deranged drainage"; x[55][1] = "";
+        x[55][0] = "deranged drainage"; x[55][1] = "A deranged drainage system is a drainage system in drainage basins where there is no coherent pattern to the rivers and lakes. It happens in areas where there has been much geological disruption. glaciers.";
         x[56][0] = "sink holes usually line up along"; x[56][1] = "fractures";
         x[57][0] = "caves and sink holes"; x[57][1] = "line up";
         x[58][0] = "soda straws form from"; x[58][1] = "calcite dipping down through cracks in the limestone ceiling";
@@ -91,6 +91,7 @@ class blankstudy{
         String n;
         while(true){
             for(int i=0; i<length; i++){
+                System.out.print(i+". ");
                 for(int j=0; j<2; j++){
                     System.out.print(x[z[i]][j]); 
                     n = user.nextLine();

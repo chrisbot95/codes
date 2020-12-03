@@ -5,7 +5,7 @@ class earthquakes{
         Random rand = new Random();
         Scanner user = new Scanner(System.in);
         String[][] x = new String[70][2];
-        int length=14;
+        int length=46;
         int[] z = new int[length];
         int r;
         int temp;
@@ -30,7 +30,7 @@ class earthquakes{
         x[9][0] = "Sudden slip, causes movement along"; x[9][1] = "fault, and rock breaks";
         x[10][0] = "Vibrations (earthquake) occur as"; x[10][1] = "rock springs back to original position";
         x[11][0] = "The change in stress that follows a mainshock creates smaller earthquakes called"; x[11][1] = "aftershocks";
-        x[12][0] = "The aftershocks “illuminate”"; x[12][1] = "the fault that ruptured in the mainshock";
+        x[12][0] = "The aftershocks 'illuminate'"; x[12][1] = "the fault that ruptured in the mainshock";
         x[13][0] = "Causes II"; x[13][1] = "Magma - movement of magma toward the surface. Human factors - pumping fluid underground.";
         x[14][0] = "Focus"; x[14][1] = "place underground where earthquake originates (hypocenter)";
         x[15][0] = "Epicenter"; x[15][1] = "Spot on the surface immediately above the focus";
@@ -60,9 +60,9 @@ class earthquakes{
         x[39][0] = "Earthquakes originate at depths ranging"; x[39][1] = "from 5 to , rarely, nearly 700 kilometers";
         x[40][0] = "Earthquake damage"; x[40][1] = "Ground Failure. Fires. Landslides. Liquefaction. Tsunami";
         x[41][0] = "1970 Peru disaster"; x[41][1] = "Buried the towns of Yungay and Ranrahirca, The death toll in both villages was 20,000.";
-        x[42][0] = "Tsunamis, or seismic sea waves"; x[42][1] = "Result from “push” of underwater fault or undersea landslide. In open ocean height is > 1 meter. In shallow coast water wave can be > 30 meters";
+        x[42][0] = "Tsunamis, or seismic sea waves"; x[42][1] = "Result from 'push' of underwater fault or undersea landslide. In open ocean height is > 1 meter. In shallow coast water wave can be > 30 meters";
         x[43][0] = "Long-term methods"; x[43][1] = " seismic hazard maps. probability analysis based on:historical EQ records geologic EQ records slip-rate on active faults frequency and magnitude of recent EQ's";
-        x[44][0] = "Long Term Predictions"; x[44][1] = "Strain Energy - accumulates uniformly release irregularly Some locked by friction “Seismic gaps”> Prime candidates for major earthquake. ";
+        x[44][0] = "Long Term Predictions"; x[44][1] = "Strain Energy - accumulates uniformly release irregularly Some locked by friction 'Seismic gaps'> Prime candidates for major earthquake. ";
         x[45][0] = "Short-term predictions"; x[45][1] = "Foreshocks: usually increase in magnitude. Ground deformation. Fluctuations in water well levels. Changes in local radio wave characteristics. Anomalous animal behavior???";
         x[46][0] = ""; x[46][1] = "";
         x[47][0] = ""; x[47][1] = "";
@@ -91,6 +91,7 @@ class earthquakes{
         String n;
         while(true){
             for(int i=0; i<length; i++){
+                System.out.print(i+". ");
                 for(int j=0; j<2; j++){
                     System.out.print(x[z[i]][j]); 
                     n = user.nextLine();

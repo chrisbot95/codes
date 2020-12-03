@@ -44,16 +44,16 @@ class arid{
         x[23][0] = "over the equator there is a "; x[23][1] = "permanent low pressure system";
         x[24][0] = "where the convection currents meet and push air down we have our"; x[24][1] = "high pressure systems in areas like the sahara desert and tropics, tropic of capricorn and tropic of cancer";
         x[25][0] = "how to make good thick soil"; x[25][1] = "lots of precipitation and water causes lots of weathering over a long period of time";
-        x[26][0] = "over the equator we have very thick soils"; x[26][1] = "";
-        x[27][0] = "over the tropics we dont have thick soils"; x[27][1] = "";
+        x[26][0] = "over the equator we have very thick soils"; x[26][1] = "I think this is because of the abundance of water";
+        x[27][0] = "over the tropics we dont have thick soils"; x[27][1] = "I think this is because of the lack of water";
         x[28][0] = "the 45 degree soils arent as easily developed because glaciers scrape all the soil away back to bedrock, 10-20,000 years to make soil compared to millions of years"; x[28][1] = "";
         x[29][0] = "coastal deserts"; x[29][1] = "associated with cold ocean currents lowering the ability for air to hold moisture, cool dry air blows onto land and causes evaporation";
         x[30][0] = "rain shadow effect"; x[30][1] = "mountains force air to go upwards and cool causing precipitation. dry air on the lee facing side = no rain. other side of the mountain will be dry";
         x[31][0] = "when the air gets to the gobi desert it"; x[31][1] = "didnt get any more chances to pick up any water";
         x[32][0] = "high pressure systems over poles"; x[32][1] = "";
         x[33][0] = "arroyos"; x[33][1] = "dry river valleys";
-        x[34][0] = "playa"; x[34][1] = "lake during the wet season, dry for most of the year";
-        x[35][0] = "alluvial fan"; x[35][1] = "";
+        x[34][0] = "playa"; x[34][1] = "lake during the wet season, dry for most of the year. underlain by stratified clay, silt, and sand, and commonly, soluble salts";
+        x[35][0] = "alluvial fan"; x[35][1] = "a fan-shaped mass of alluvium deposited as the flow of a river decreases in velocity. there is not enough water for the stream toflow continuously, the stream deposits its load of sediment near themountain front, producing a wedge-shaped apron of gravel and sand";
         x[36][0] = "pediment"; x[36][1] = "big apron of soil around the edge of the mountains made by alluvial fans";
         x[37][0] = "inselberg"; x[37][1] = "island of bedrock";
         x[38][0] = "playa lakes have layers of"; x[38][1] = "salt and clay. salt from evaporation of water leaving behind minerals.";
@@ -62,7 +62,7 @@ class arid{
         x[41][0] = "desert pavement"; x[41][1] = "layer of pebbles left behind after deflation";
         x[42][0] = "abrasion"; x[42][1] = "sand blasting";
         x[43][0] = "ventifacts"; x[43][1] = "wind shaped stones with sharp edge faces";
-        x[44][0] = "yardangs"; x[44][1] = "streamlined desert ridges";
+        x[44][0] = "yardangs"; x[44][1] = "streamlined desert ridges. Yardangs are formed by the wind erosion of adjacent material that is less resistant. Much like if you piled feathers on top of rocks and blew on them.";
         x[45][0] = "wind swept sand dunes can cause plants to form from the water in the bedrock"; x[45][1] = "";
         x[46][0] = "sandstorms"; x[46][1] = "suspension of sand particles, sand blasting";
         x[47][0] = "desert pavements are caused by"; x[47][1] = "wind blowing away the finer particles, so all the larger particles are left behind. the larger particles then protect the sand underneath from getting blown away";
@@ -91,9 +91,12 @@ class arid{
         String n;
         while(true){
             for(int i=0; i<length; i++){
+                System.out.print(i+". ");
                 for(int j=0; j<2; j++){
-                    System.out.print(x[z[i]][j]); 
-                    n = user.nextLine();
+                    if(x[z[i]][j] != null){
+                        System.out.print(x[z[i]][j]); 
+                        n = user.nextLine();
+                    }
                 }
                 System.out.println();
             }

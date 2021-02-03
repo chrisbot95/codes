@@ -18,7 +18,7 @@ class minecraft{
             z[i] = z[r];
             z[r] = temp;
         }
-        x[0][0] = "Piston"; x[0][1] = "3 wood planks, 4 cobblestone, 1 iron ingot, 1 redstone";
+        x[0][0] = "Pistone"; x[0][1] = "3 wood planks, 4 cobblestone, 1 iron ingot, 1 redstone";
         x[1][0] = "tripwire hook"; x[1][1] = "iron ingot, stick, wood plank";
         x[2][0] = "crossbow"; x[2][1] = "3 sticks, 2 strings, tripwire hook, iron ingot";
         x[3][0] = "armor stand"; x[3][1] = "smooth stone slab, 6 sticks";

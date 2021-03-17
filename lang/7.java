@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-class blankstudy{
+class 7{
     public static void main(String[] args){
         Random rand = new Random();
         Scanner user = new Scanner(System.in);
@@ -18,7 +18,7 @@ class blankstudy{
             z[i] = z[r];
             z[r] = temp;
         }
-        x[0][0] = "talus"; x[0][1] = "the debris that collects at the bottom of a mountain";
+        x[0][0] = "Left recursion means not LL(1)"; x[0][1] = "";
         x[1][0] = ""; x[1][1] = "";
         x[2][0] = ""; x[2][1] = "";
         x[3][0] = ""; x[3][1] = "";

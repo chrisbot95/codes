@@ -1,11 +1,11 @@
 import java.util.Random;
 import java.util.Scanner;
-class blankstudy{
+class chemical{
     public static void main(String[] args){
         Random rand = new Random();
         Scanner user = new Scanner(System.in);
         String[][] x = new String[70][2];
-        int length=14;
+        int length=59;
         int[] z = new int[length];
         int r;
         int temp;
@@ -71,12 +71,12 @@ class blankstudy{
         x[50][0] = "weathering sequence for fine grained minerals"; x[50][1] = "non silicates (easiest to weather), phosphates and carbonates(in acidic conditions), mafic minerals (silicates), feldspars, muscovite, quartz > turn into clay minerals, more stable than silicate counterparts. oxides at the earths surface are the most stable minerals (gibbsite, hematite, zircon), ";
         x[51][0] = "presence of vegetation is a"; x[51][1] = "weathering factor";
         x[52][0] = "factors affecting weathering > "; x[52][1] = "parent material (mineral stability, permeability, joints and fractures) Climate, Vegetation, Topography, Time";
-        x[53][0] = ""; x[53][1] = "";
-        x[54][0] = ""; x[54][1] = "";
-        x[55][0] = ""; x[55][1] = "";
-        x[56][0] = ""; x[56][1] = "";
-        x[57][0] = ""; x[57][1] = "";
-        x[58][0] = ""; x[58][1] = "";
+        x[53][0] = "Spheroidal Weathering"; x[53][1] = "";
+        x[54][0] = "> 2 mm : pebbles, boulders"; x[54][1] = "";
+        x[55][0] = "1/16 to 2 mm : sand"; x[55][1] = "";
+        x[56][0] = "1/256 to 1/512 mm : silt"; x[56][1] = "";
+        x[57][0] = "< 1/512 mm : clay"; x[57][1] = "";
+        x[58][0] = "Clay Mineral"; x[58][1] = "One of a complex and loosely defined group of hydrous silicate minerals (essentially of Aluminum). They have a monoclinic layered crystal lattice.";
         x[59][0] = ""; x[59][1] = "";
         x[60][0] = ""; x[60][1] = "";
         x[61][0] = ""; x[61][1] = "";

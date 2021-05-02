@@ -1,6 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
-class foldlandforms{
+class blankstudy{
     public static void main(String[] args){
         Random rand = new Random();
         Scanner user = new Scanner(System.in);
@@ -18,33 +18,33 @@ class foldlandforms{
             z[i] = z[r];
             z[r] = temp;
         }
-        x[0][0] = "The biggest geomorphic feature is"; x[0][1] = "bedrock geomorphology";
-        x[1][0] = "first order geomorphology"; x[1][1] = "continents(felsic) and ocean basins(mafic), caused by magma differentiation. base level.";
-        x[2][0] = "second order geomorphology and what drives it"; x[2][1] = "tectonically based, dunes, bumps on continents. The rate of crustal deformation, 3-D geometry of rock structure, Differential erosion of rock within the structure";
-        x[3][0] = "Sea Floor Bathymetry"; x[3][1] = "";
-        x[4][0] = "you can make plateus by"; x[4][1] = "eroding different layers of flat lying sedimentary rock, he said its a 3rd order landform????";
-        x[5][0] = "The grand canyon was formed by regional tectonic uplift and "; x[5][1] = "the colorado river incised drainage";
-        x[6][0] = "mesa"; x[6][1] = "large plateau";
-        x[7][0] = "butte"; x[7][1] = "plateau but its smaller, cant play soccer on it";
-        x[8][0] = "hoodoo"; x[8][1] = "plateau but you can just put a chair on it pretty much";
-        x[9][0] = "plateau main ingredient"; x[9][1] = "flatlying sedimentary rock with caprock";
-        x[10][0] = "fluvial aolean coluvium"; x[10][1] = "gravity, wind, water";
-        x[11][0] = "obsequent stream bullshit"; x[11][1] = "";
-        x[12][0] = "cuesta"; x[12][1] = "mountain ridge that is a dipping bedrock slope bullshit";
-        x[13][0] = "hogback"; x[13][1] = "mountain ridge where the dip is at around 45 degrees or higher";
-        x[14][0] = "you can tell if its a dipping bedrock structure based on the erosion on either side apparently"; x[14][1] = "";
-        x[15][0] = "flatirons"; x[15][1] = "obsequent streams keep doing their thing into the ridges. headward erosion peaks over the ridge and cuts down.";
-        x[16][0] = "what determins whether an anticline or syncline will turn into a valley or a hill?"; x[16][1] = "The strength/resistance to weathering of the material in the middle / along the axis";
-        x[17][0] = "domes and basins can also be affected by"; x[17][1] = "whether or not the rock in the center is more or less weatherable than the surrounding rock";
-        x[18][0] = "annular drainage"; x[18][1] = "so Its apparently formed on ridges that are formed from plunging anticlines or synclines";
-        x[19][0] = "water gap, wind gap"; x[19][1] = "incised river valley";
-        x[20][0] = "if a river has incised through mountains, thats good evidence for the fact that"; x[20][1] = "the river is older than the mountains or the tectonic event that formed the mountains";
-        x[21][0] = "igneous rocks can be caprocks. hell yea"; x[21][1] = "";
-        x[22][0] = "subsequent"; x[22][1] = "river channel that flows along the strike between two ridges";
-        x[23][0] = "resequent"; x[23][1] = "river channel that flows down the nonsteep side of a ridge. down the dip slope";
-        x[24][0] = "obsequent"; x[24][1] = "the headward erosion side that does stream piracy";
-        x[25][0] = "trellised pattern is what you get in a"; x[25][1] = "dipping landform";
-        x[26][0] = "The ridges are second order geomorphology while the erosional rivers are 3rd order"; x[26][1] = "";
+        x[0][0] = "William Morris Davis"; x[0][1] = "The guy who came up with the cycle of erosion.";
+        x[1][0] = "peneplain"; x[1][1] = "the hypothetical landscape that would occur once a landscape has eroded everything down to base level";
+        x[2][0] = "step 1"; x[2][1] = "drop base level through either tectonic uplift, or Eustatic sea level regression";
+        x[3][0] = "step 2"; x[3][1] = "allow lots of time for erosion";
+        x[4][0] = "step 3"; x[4][1] = "all land eroded to base level";
+        x[5][0] = "flat erosional surfaces suggest"; x[5][1] = "ancient peneplains";
+        x[6][0] = "older erosional surfaces"; x[6][1] = "can theoretically cause higher mountain plains. its a picture with different levels of mountaintops that imply different peneplains";
+        x[7][0] = "The sea level changes way faster than"; x[7][1] = "a peneplain can be created";
+        x[8][0] = "we go to rejuvination way to quickly for"; x[8][1] = "a peneplain to form";
+        x[9][0] = "fully mature landscapes tend to only occur"; x[9][1] = "in the very middle of very large continents";
+        x[10][0] = ""; x[10][1] = "";
+        x[11][0] = ""; x[11][1] = "";
+        x[12][0] = ""; x[12][1] = "";
+        x[13][0] = ""; x[13][1] = "";
+        x[14][0] = ""; x[14][1] = "";
+        x[15][0] = ""; x[15][1] = "";
+        x[16][0] = ""; x[16][1] = "";
+        x[17][0] = ""; x[17][1] = "";
+        x[18][0] = ""; x[18][1] = "";
+        x[19][0] = ""; x[19][1] = "";
+        x[20][0] = ""; x[20][1] = "";
+        x[21][0] = ""; x[21][1] = "";
+        x[22][0] = ""; x[22][1] = "";
+        x[23][0] = ""; x[23][1] = "";
+        x[24][0] = ""; x[24][1] = "";
+        x[25][0] = ""; x[25][1] = "";
+        x[26][0] = ""; x[26][1] = "";
         x[27][0] = ""; x[27][1] = "";
         x[28][0] = ""; x[28][1] = "";
         x[29][0] = ""; x[29][1] = "";

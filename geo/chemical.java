@@ -89,7 +89,7 @@ class chemical{
         x[68][0] = ""; x[68][1] = "";
         x[69][0] = ""; x[69][1] = "";
         String n;
-        while(true){
+        //while(true){
             for(int i=0; i<length; i++){
                 for(int j=0; j<2; j++){
                     System.out.print(x[z[i]][j]); 
@@ -97,6 +97,6 @@ class chemical{
                 }
                 System.out.println();
             }
-        }
+        //}
     }
 }

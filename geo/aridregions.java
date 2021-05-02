@@ -32,9 +32,9 @@ class aridregions{
         x[11][0] = "bed load"; x[11][1] = "0.5-2 meters above the ground.";
         x[12][0] = "dead layer"; x[12][1] = "around a cm above the ground";
         x[13][0] = "stable layer"; x[13][1] = "the layer of the ground that does not move in the wind.";
-        x[14][0] = "reynolds number"; x[14][1] = "Re = (ρVL)/μ";
+        x[14][0] = "reynolds number"; x[14][1] = "Re = (pVL)/u";
         x[15][0] = "velocity for height z "; x[15][1] = "Vz = 5.75V* log (z/k), V* is shear velocity (surface friction speed), K = surface roughness.";
-        x[16][0] = "V* = (τ/ρ)1/2  or  τ = ρ V*2"; x[16][1] = "";
+        x[16][0] = "V* = (t/p)1/2  or  t = p V*2"; x[16][1] = "";
         x[17][0] = "Stokes’ Law"; x[17][1] = "Used to determine settling velocity of dust particles > 1μm falling in a quiescent setting with Reynolds numbers < 1. Settling velocity is determined by equating drag force on falling (spherical) particle to force of gravity. If particles are non-spherical, then Stokes’ diameter can be used instead. Stokes’ diameter: diameter of hypothetical spherical particle with same density and settling velocity as the non – spherical particle.";
         x[18][0] = "critical velocity"; x[18][1] = "what speed does the air need to be moving at in order to move a particle";
         x[19][0] = "impact threshold"; x[19][1] = "how much speed does the air need to move a sand particle if theres already sand in the wind. Vz = 5.75 V’* log (z/k’) + Vi";
@@ -44,7 +44,7 @@ class aridregions{
         x[23][0] = "Aeolian dunes "; x[23][1] = "– 3 m - 600 m in wavelength and tens of 10 cm – 100 m high";
         x[24][0] = "Draas"; x[24][1] = "giant bedforms / sand ridge > 300 m in height";
         x[25][0] = "ripple is cms in scale, dune is m in scale, draa can be km in scale"; x[25][1] = "";
-        x[26][0] = "Dune Migration "; x[26][1] = "M = q/(ρs g H), m is how fast the dune is moving, g is gravity, rho(s) is the sand, q is the rate of sand flow, H is the height of the dune";
+        x[26][0] = "Dune Migration "; x[26][1] = "M = q/(ps g H), m is how fast the dune is moving, g is gravity, rho(s) is the sand, q is the rate of sand flow, H is the height of the dune";
         x[27][0] = "the angle on the lee side of the dune is like 35 degrees"; x[27][1] = "";
         x[28][0] = "the angle on the staa side is like 15 degrees"; x[28][1] = "";
         x[29][0] = "cross beds"; x[29][1] = "angular uncomformity between dune surfaces. old dunes get blown away by high winds I guess";
@@ -319,7 +319,7 @@ class aridregions{
         x[298][0] = ""; x[298][1] = "";
         x[299][0] = ""; x[299][1] = "";
         String n;
-        while(true){
+        //while(true){
             for(int i=0; i<length; i++){
                 for(int j=0; j<2; j++){
                     System.out.print(x[z[i]][j]); 
@@ -327,6 +327,6 @@ class aridregions{
                 }
                 System.out.println();
             }
-        }
+        //}
     }
 }

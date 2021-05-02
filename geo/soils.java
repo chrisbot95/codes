@@ -319,7 +319,7 @@ class soils{
         x[298][0] = ""; x[298][1] = "";
         x[299][0] = ""; x[299][1] = "";
         String n;
-        while(true){
+        //while(true){
             for(int i=0; i<length; i++){
                 for(int j=0; j<2; j++){
                     System.out.print(x[z[i]][j]); 
@@ -327,6 +327,6 @@ class soils{
                 }
                 System.out.println();
             }
-        }
+        //}
     }
 }
